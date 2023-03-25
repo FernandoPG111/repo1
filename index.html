@@ -5,9 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Hello</h1>
-    <h2>Hello</h2>
+    <nav class="nav-contenedor">
+        <ul class="contenedor-link">
+            <li><a href="">Monedas</a></li>
+            <li><a href="">Cotizacion</a></li>
+            <li><a href="">Mercados</a></li>
+            <li><a href="">Nosotros</a></li>
+        </ul>
+    </nav>
+    
+    <h1>Conversor de moneda</h1>
+    <h2>Bienvenido a nuestro conversor de moneda. Ingrese el monto en pesos argentinos (ARS) y la moneda a la cual quiere convertir su monto.</h2>
+
+    <div class="contenedor-conversor">
+        <div class="label-input">
+            <label for="monto">Ingrese el monto en Pesos Argentinos (ARS):</label>
+            <input type="text" name="monto" id="monto" required>
+        </div>
+        
+        <div class="contenedor-botones">
+            <button class="btn-dolar">Convertir a USD</button>
+            <button class="btn-euro">Convertir a EUR</button>
+        </div>
+        
+    </div>
+    
 </body>
 </html>
