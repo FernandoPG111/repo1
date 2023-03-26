@@ -5,7 +5,7 @@ function convertToDollars(){
     botonDolar.addEventListener('click', () =>{
         let montoEnPesos = Number(document.getElementById('monto').value); // El valor tiene que almacenarse luego de hacer click! 
         montoEnDolar = montoEnPesos * 400; 
-        alert(`Su monto en dolares es ${montoEnDolar}`); 
+        alert(`Su monto en dolares es ${montoEnDolar}`);  
     })
 }
 
@@ -16,7 +16,7 @@ function convertToEuro(){
     botonEuro.addEventListener('click', () =>{
         let montoEnPesos = Number(document.getElementById('monto').value);
         montoEnEuro = montoEnPesos * 425; 
-        alert(`Su monto en euros es ${montoEnEuro}`); 
+        alert(`Su monto en euros es ${montoEnEuro}`);  
     })
 }
 

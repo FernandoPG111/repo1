@@ -4,19 +4,19 @@
     box-sizing: border-box;
 }
 
-.nav-contenedor {   /* contenedor padre de navbar */
+.nav-contenedor {                                   /* contenedor padre de navbar */
     height: 50px; 
     display: flex; 
     flex-direction: row-reverse; 
     margin-right: 100px;  
     margin-top: 25px; 
 }
-.contenedor-link {
+.contenedor-link {                                  /* contenedor de links */
     display: flex; 
     gap: 70px;  
 }
 
-.contenedor-link > li > a {
+.contenedor-link > li > a {                         /* estilo de cada link  */
     text-decoration: none; 
 }
 
@@ -43,4 +43,9 @@ label::after {
 .contenedor-botones {
     margin-top: 10px; 
     text-align: center;
+}
+
+.label-input {
+    margin-left: auto; 
+    margin-right: auto; 
 }
